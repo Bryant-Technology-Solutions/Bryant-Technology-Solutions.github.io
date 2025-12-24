@@ -207,13 +207,13 @@ nav a {
 
 /* Logo Image */
 .logo-image {
-  max-height: 56px;
+  max-height: 75px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 768px) {
   .logo-image {
-    max-height: 44px;
+    max-height: 55px;
   }
 }
