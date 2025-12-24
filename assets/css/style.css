@@ -1,4 +1,6 @@
-/* Reset */
+/* =========================
+   Base / Reset
+========================= */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,33 +14,55 @@ body {
   line-height: 1.6;
 }
 
+/* =========================
+   Layout
+========================= */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-/* Header */
+.container.narrow {
+  max-width: 760px;
+}
+
+.content-section {
+  padding: 4rem 1.5rem;
+}
+
+/* =========================
+   Header
+========================= */
 .site-header {
   background: #0b1220;
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
-.header-inner {
+.header-inner,
+.footer-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
   display: flex;
-  gap: 0.75rem;
   align-items: center;
+  gap: 0.75rem;
 }
 
-.logo-mark {
-  color: #22d3ee;
-  font-size: 1.5rem;
+.logo-image {
+  max-height: 100px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    max-height: 65px;
+  }
 }
 
 .logo-text strong {
@@ -63,9 +87,10 @@ nav a {
   font-size: 0.9rem;
 }
 
-/* Hero */
+/* =========================
+   Hero (Homepage)
+========================= */
 .hero {
-  position: relative;
   background:
     linear-gradient(135deg, #0b1220 0%, #0f1b33 100%),
     url("../images/hero-bg.svg");
@@ -97,47 +122,12 @@ nav a {
   border-radius: 6px;
 }
 
-/* Value Props */
-.value-props {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2rem;
-  margin-top: 4rem;
-}
-
-.value-props h3 {
-  margin-bottom: 0.5rem;
-}
-
-/* Footer */
-.site-footer {
-  margin-top: 5rem;
-  padding: 2rem 0;
-  border-top: 1px solid rgba(255,255,255,0.05);
-  background: #0b1220;
-}
-
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer-brand p {
-  font-size: 0.85rem;
-  opacity: 0.6;
-}
-
-.footer-meta {
-  font-size: 0.8rem;
-  opacity: 0.5;
-  text-align: right;
-}
-
-/* Page Hero */
+/* =========================
+   Page Hero (Interior Pages)
+========================= */
 .page-hero {
-  padding: 4rem 0 2rem;
+  padding: 4rem 1.5rem 2rem;
+  text-align: center;
   background: linear-gradient(135deg, #0b1220 0%, #0f1b33 100%);
 }
 
@@ -146,13 +136,31 @@ nav a {
   margin-bottom: 1rem;
 }
 
+.page-hero .subtitle,
 .page-subhead {
   max-width: 700px;
+  margin: 0 auto;
   font-size: 1.1rem;
   opacity: 0.85;
 }
 
-/* Services */
+/* =========================
+   Value Props
+========================= */
+.value-props {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.value-props h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* =========================
+   Services
+========================= */
 .services {
   margin-top: 3rem;
   display: grid;
@@ -169,30 +177,41 @@ nav a {
   opacity: 0.9;
 }
 
-.service ul {
+.service ul,
+.checklist {
   list-style: none;
   padding-left: 0;
 }
 
-.service ul li {
+.service ul li,
+.checklist li {
   margin-bottom: 0.5rem;
-  position: relative;
   padding-left: 1.25rem;
+  position: relative;
 }
 
 .service ul li::before {
   content: "–";
-  position: absolute;
   left: 0;
+  position: absolute;
   color: #22d3ee;
 }
 
-/* Services CTA */
+.checklist li::before {
+  content: "✓";
+  left: 0;
+  position: absolute;
+  color: var(--accent-color, #22d3ee);
+}
+
+/* =========================
+   Services CTA
+========================= */
 .services-cta {
   margin-top: 5rem;
-  padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  padding: 4rem 1.5rem;
   text-align: center;
+  background: rgba(255,255,255,0.02);
 }
 
 .services-cta h2 {
@@ -205,15 +224,23 @@ nav a {
   opacity: 0.85;
 }
 
-/* Logo Image */
-.logo-image {
-  max-height: 100px;
-  width: auto;
-  display: block;
+/* =========================
+   Footer
+========================= */
+.site-footer {
+  margin-top: 5rem;
+  padding: 2rem 0;
+  background: #0b1220;
+  border-top: 1px solid rgba(255,255,255,0.05);
 }
 
-@media (max-width: 768px) {
-  .logo-image {
-    max-height: 65px;
-  }
+.footer-brand p {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+.footer-meta {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  text-align: right;
 }
