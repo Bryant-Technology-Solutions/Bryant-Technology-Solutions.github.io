@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Message Sent
+permalink: /thank-you/
 ---
 
 <section class="page-hero">
