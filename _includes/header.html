@@ -1,14 +1,15 @@
 <header class="site-header">
   <div class="container header-inner">
     <div class="logo">
-      <!-- Replace with SVG logo later -->
-      <span class="logo-mark">◼︎</span>
-      <div class="logo-text">
-        <strong>Bryant</strong>
-        <span>Technology Solutions</span>
-        <small>Your Personal IT Department</small>
-      </div>
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/logo/bt-logo.png' | relative_url }}"
+          alt="Bryant Technology Solutions — Your Personal IT Department"
+          class="logo-image"
+        />
+      </a>
     </div>
+  </div>
 
     <nav>
       <a href="{{ '/services' | relative_url }}">Services</a>

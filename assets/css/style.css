@@ -205,4 +205,15 @@ nav a {
   opacity: 0.85;
 }
 
+/* Logo Image */
+.logo-image {
+  max-height: 56px;
+  width: auto;
+  display: block;
+}
 
+@media (max-width: 768px) {
+  .logo-image {
+    max-height: 44px;
+  }
+}
