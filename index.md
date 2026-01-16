@@ -12,7 +12,12 @@ title: Home
       delivered with personal accountability.
     </p>
 
-    <a class="cta-button" href="#">Schedule a Consultation</a>
+    <a
+      href="https://outlook.office.com/book/Consultation@bryanttechsolutions.com/"
+      class="cta-button"
+      target="_blank"
+      rel="noopener"
+    >Schedule a Consultation</a>
   </div>
 </section>
 
