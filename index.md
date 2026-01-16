@@ -32,6 +32,6 @@ title: Home
   </div>
   <div>
     <h3>Personal Accountability</h3>
-    <p>Your IT partner — not a ticket number.</p>
+    <p>Your IT partner... not a ticket number.</p>
   </div>
 </section>

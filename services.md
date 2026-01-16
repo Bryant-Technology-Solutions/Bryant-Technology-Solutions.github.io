@@ -19,7 +19,7 @@ permalink: /services/
   <div class="service">
     <h2>Managed IT Services</h2>
     <p>
-      We operate as your personal IT department — handling day-to-day operations,
+      We operate as your personal IT department... handling day-to-day operations,
       monitoring, maintenance, and support with a proactive mindset.
     </p>
     <ul>
@@ -34,7 +34,7 @@ permalink: /services/
     <h2>Cloud & Infrastructure</h2>
     <p>
       Reliable, scalable infrastructure designed for performance, security,
-      and cost control — whether on-prem, cloud, or hybrid.
+      and cost control... whether on-prem, cloud, or hybrid.
     </p>
     <ul>
       <li>AWS and cloud architecture</li>
@@ -62,7 +62,7 @@ permalink: /services/
     <h2>Strategic IT Advisory</h2>
     <p>
       Executive-level guidance to align technology with business goals.
-      Think vCTO — without the overhead.
+      Think vCTO... without the overhead.
     </p>
     <ul>
       <li>Technology roadmaps</li>

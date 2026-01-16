@@ -8,7 +8,7 @@ permalink: /about/
   <div class="container">
     <h1>Your Personal IT Department</h1>
     <p class="subtitle">
-      Technology should support your business — not slow it down.
+      Technology should support your business...not slow it down.
     </p>
   </div>
 </section>
@@ -29,6 +29,8 @@ permalink: /about/
       your business.
     </p>
 
+    <br/>
+
     <h2>How We Work</h2>
 
     <p>
@@ -38,12 +40,14 @@ permalink: /about/
     </p>
 
     <ul class="checklist">
-      <li>Clear communication — no unnecessary jargon</li>
+      <li>Clear communication... no unnecessary jargon</li>
       <li>Proactive monitoring and maintenance</li>
       <li>Security built in, not bolted on</li>
       <li>Solutions that scale as you grow</li>
     </ul>
 
+    <br/>
+    
     <h2>What Makes Us Different</h2>
 
     <p>
@@ -59,14 +63,18 @@ permalink: /about/
       their own.
     </p>
 
+    <br/>
+    
     <h2>Who We Serve</h2>
 
     <p>
       We work with organizations that value reliability, security, and long-term
-      thinking — including professional services firms, SaaS companies, and
+      thinking... including professional services firms, SaaS companies, and
       growing businesses that need dependable IT without unnecessary complexity.
     </p>
 
+    <br/>
+    
     <h2>Let’s Talk</h2>
 
     <p>
