@@ -86,6 +86,6 @@ permalink: /services/
       class="cta-button"
       target="_blank"
       rel="noopener"
-    >Schedule a Consultation</a>
+    >Schedule a Free Consultation</a>
   </div>
 </section>

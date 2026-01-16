@@ -83,7 +83,16 @@ permalink: /about/
     </p>
 
     <p>
-      <a href="/contact/" class="button primary">Get in Touch</a>
+      <a
+        href="https://outlook.office.com/book/Consultation@bryanttechsolutions.com/"
+        class="cta-button"
+        target="_blank"
+        rel="noopener"
+      >Schedule a Free Consultation</a>
+    </p>
+
+    <p>
+      Or... <a href="/contact/" class="button primary">Get in Touch</a>
     </p>
   </div>
 </section>
