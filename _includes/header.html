@@ -43,11 +43,33 @@
 
 <!-- Mobile nav script -->
 <script>
+  // Mobile navigation
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".main-nav");
 
   toggle.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("open");
+
+    // Accessibility
     toggle.setAttribute("aria-expanded", isOpen);
+
+    // Icon swap
+    toggle.textContent = isOpen ? "✕" : "☰";
   });
+
+  // Cookie banner
+  const banner = document.getElementById("cookie-banner");
+  const btn = document.getElementById("accept-cookies");
+
+  if (banner && btn) {
+
+    if (localStorage.getItem("cookiesAccepted")) {
+      banner.style.display = "none";
+    }
+
+    btn.addEventListener("click", () => {
+      localStorage.setItem("cookiesAccepted", "true");
+      banner.style.display = "none";
+    });
+  }
 </script>
