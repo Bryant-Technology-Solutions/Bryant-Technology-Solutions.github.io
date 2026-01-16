@@ -9,7 +9,7 @@ title: Home
 
     <p class="hero-subhead">
       Strategic IT management, cloud, and security —
-      delivered with personal accountability.
+      delivered with a personal touch.
     </p>
 
     <a
