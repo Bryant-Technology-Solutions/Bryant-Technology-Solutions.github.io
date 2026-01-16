@@ -287,3 +287,32 @@ nav a {
   display: none !important;
 }
 
+/* =========================
+   Cookie Banner
+========================= */
+.cookie-banner {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0f1b33;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  max-width: 720px;
+  width: calc(100% - 2rem);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  z-index: 999;
+}
+
+.cookie-banner p {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.cta-button.small {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+}
