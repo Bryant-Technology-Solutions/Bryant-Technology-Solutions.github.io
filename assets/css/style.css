@@ -316,3 +316,44 @@ nav a {
   padding: 0.4rem 0.75rem;
   font-size: 0.8rem;
 }
+
+/* Mobile Nav */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #e5e7eb;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .main-nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .main-nav.active {
+    display: flex;
+  }
+
+  .main-nav a {
+    margin-left: 0;
+  }
+}

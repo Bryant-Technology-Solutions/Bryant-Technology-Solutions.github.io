@@ -82,6 +82,8 @@ permalink: /about/
       complex environment, we’re happy to start with a conversation.
     </p>
 
+    <br/>
+
     <p>
       <a
         href="https://outlook.office.com/book/Consultation@bryanttechsolutions.com/"
@@ -89,10 +91,6 @@ permalink: /about/
         target="_blank"
         rel="noopener"
       >Schedule a Free Consultation</a>
-    </p>
-
-    <p>
-      Or... <a href="/contact/" class="button primary">Get in Touch</a>
     </p>
   </div>
 </section>

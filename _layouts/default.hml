@@ -28,6 +28,14 @@
       localStorage.setItem("cookiesAccepted", "true");
       banner.style.display = "none";
     });
+
+    const toggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".main-nav");
+
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+      toggle.textContent = nav.classList.contains("active") ? "✕" : "☰";
+    });
   </script>
 </body>
 </html>
