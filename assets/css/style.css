@@ -374,7 +374,12 @@ body {
 
 /* Mobile Navigation */
 @media (max-width: 768px) {
-  .main-nav {
+  .nav-toggle {
+    display: block;
+    font-size: 1.8rem;
+  }
+
+  .site-header .main-nav {
     position: absolute;
     top: 100%;
     right: 0;
@@ -387,11 +392,11 @@ body {
     display: none;
   }
 
-  .main-nav.open {
+  .site-header .main-nav.open {
     display: flex;
   }
 
-  .main-nav a {
+  .site-header .main-nav a {
     color: #f9fafb;
     font-size: 1.1rem;
     font-weight: 500;
