@@ -56,6 +56,10 @@ body {
   flex-wrap: wrap;
 }
 
+.header-inner {
+  position: relative;
+}
+
 .logo {
   display: flex;
   align-items: center;
