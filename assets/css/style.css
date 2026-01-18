@@ -374,31 +374,29 @@ body {
 
 /* Mobile Navigation */
 @media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
-    font-size: 1.8rem;
-  }
-
   .main-nav {
     position: absolute;
     top: 100%;
     right: 0;
-    background: #fff;
+    background: #111827;
     flex-direction: column;
     align-items: flex-end;
-    padding: 1rem;
-    width: 220px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.25rem;
+    width: 240px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
     display: none;
   }
 
-  .main-nav.active,
   .main-nav.open {
     display: flex;
   }
 
   .main-nav a {
-    margin-left: 0;
-    padding: 0.5rem 0;
+    color: #f9fafb;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.75rem 0;
+    width: 100%;
+    text-align: right;
   }
 }
