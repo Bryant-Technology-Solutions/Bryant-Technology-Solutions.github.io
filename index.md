@@ -23,15 +23,15 @@ title: Home
 
 <section class="value-props container">
   <div>
-    <h3>Strategic Oversight</h3>
+    <h2>Strategic Oversight</h2>
     <p>We think like a CTO, not a help desk.</p>
   </div>
   <div>
-    <h3>Dependable Execution</h3>
+    <h2>Dependable Execution</h2>
     <p>Secure, monitored, and maintained systems.</p>
   </div>
   <div>
-    <h3>Personal Accountability</h3>
+    <h2>Personal Accountability</h2>
     <p>Your IT partner... not a ticket number.</p>
   </div>
 </section>
