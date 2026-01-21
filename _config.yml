@@ -1,11 +1,13 @@
 title: Bryant Technology Solutions
 description: Your Personal IT Department
-url: https://yourusername.github.io
+url: https://bryanttechsolutions.com
 baseurl: ""
 
 markdown: kramdown
 theme: null
 
-
 sass:
   style: compressed
+
+plugins:
+  - jekyll-sitemap
