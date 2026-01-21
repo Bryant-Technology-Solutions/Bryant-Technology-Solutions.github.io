@@ -286,6 +286,34 @@ body {
   border-color: var(--accent);
 }
 
+.contact-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 4rem 0 3rem;
+  color: #9ca3af;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contact-divider::before,
+.contact-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,0.12);
+}
+
+.contact-divider span {
+  padding: 0 1rem;
+}
+
+.booking-section {
+  margin-top: 2rem;
+}
+
+
 /* =========================
    Honeypot
 ========================= */

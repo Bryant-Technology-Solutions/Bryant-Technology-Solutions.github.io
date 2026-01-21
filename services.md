@@ -2,6 +2,8 @@
 layout: default
 title: Services
 permalink: /services/
+description: IT support, cloud migrations, security consulting & monitoring.
+Enterprise-grade IT without enterprise costs.
 ---
 
 <section class="page-hero">
