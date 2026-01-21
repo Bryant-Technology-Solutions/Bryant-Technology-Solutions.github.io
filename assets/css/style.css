@@ -452,6 +452,7 @@ body {
 
   .site-header .main-nav.open {
     display: flex;
+    z-index: 2;
   }
 
   .site-header .main-nav a {
