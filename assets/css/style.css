@@ -289,12 +289,13 @@ body {
 .contact-divider {
   display: flex;
   align-items: center;
-  text-align: center;
-  margin: 4rem 0 3rem;
+  justify-content: center;
+  margin: 4.5rem 0 3.75rem;
   color: #9ca3af;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  opacity: 0.85;
 }
 
 .contact-divider::before,
@@ -302,15 +303,33 @@ body {
   content: "";
   flex: 1;
   height: 1px;
-  background: rgba(255,255,255,0.12);
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.18),
+    transparent
+  );
+  margin: 0 1.25rem;
 }
 
 .contact-divider span {
-  padding: 0 1rem;
+  padding: 0 0.75rem;
+  white-space: nowrap;
 }
 
 .booking-section {
   margin-top: 2rem;
+}
+
+@keyframes dividerFade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 0.85;
+    transform: translateY(0);
+  }
 }
 
 
