@@ -6,6 +6,18 @@ description: >
   IT support, cloud migrations, security consulting & monitoring.
   Enterprise-grade IT without enterprise costs.
 ---
+<script>
+const reveals = document.querySelectorAll(".reveal");
+
+window.addEventListener("scroll", () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) {
+      el.classList.add("active");
+    }
+  });
+});
+</script>
 
 <section class="page-hero">
   <div class="container">
@@ -19,7 +31,7 @@ description: >
 
 <section class="services container">
 
-  <div class="service">
+  <div class="service reveal">
     <h2>Managed IT Services</h2>
     <p>
       We operate as your personal IT department handling day-to-day operations,
@@ -33,7 +45,7 @@ description: >
     </ul>
   </div>
 
-  <div class="service">
+  <div class="service reveal">
     <h2>Cloud & Infrastructure</h2>
     <p>
       Reliable, scalable infrastructure designed for performance, security,
@@ -47,7 +59,7 @@ description: >
     </ul>
   </div>
 
-  <div class="service">
+  <div class="service reveal">
     <h2>Security & Risk Management</h2>
     <p>
       Practical, layered security that protects your business without slowing it down.
@@ -61,7 +73,7 @@ description: >
     </ul>
   </div>
 
-  <div class="service">
+  <div class="service reveal">
     <h2>Strategic IT Advisory</h2>
     <p>
       Executive-level guidance to align technology with business goals.
