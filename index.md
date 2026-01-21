@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Home
-description: Managed IT services, cloud solutions & cybersecurity.
-Bryant Technology Solutions keeps your business secure and running smoothly.
+description: >
+  Managed IT services, cloud solutions & cybersecurity.
+  Bryant Technology Solutions keeps your business secure and running smoothly.
 ---
 
 <section class="hero">

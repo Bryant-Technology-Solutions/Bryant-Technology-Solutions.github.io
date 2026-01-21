@@ -2,8 +2,9 @@
 layout: default
 title: About
 permalink: /about/
-description: Learn about Bryant Technology Solutions and our mission to provide reliable,
-security-first IT services to growing businesses.
+description: >
+  Learn about Bryant Technology Solutions and our mission to provide reliable,
+  security-first IT services to growing businesses.
 ---
 
 <section class="page-hero">
