@@ -9,8 +9,8 @@ description: >
 
 <section class="page-hero">
   <div class="container">
-    <h1>Your Personal IT Department</h1>
-    <p class="subtitle">
+    <h1 class="reveal">Your Personal IT Department</h1>
+    <p class="hero-subhead reveal reveal-delay-1">
       Technology should support your business...not slow it down.
     </p>
   </div>
