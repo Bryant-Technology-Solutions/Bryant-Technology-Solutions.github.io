@@ -9,7 +9,7 @@ description: >
 
 <section class="page-hero">
   <div class="container">
-    <h1 class="reveal">Your Personal IT Department</h1>
+    <h1>Your Personal IT Department</h1>
     <p class="subtitle">
       Technology should support your business...not slow it down.
     </p>
