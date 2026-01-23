@@ -9,7 +9,7 @@ description: >
 
 <section class="page-hero">
   <div class="container">
-    <h1>IT services that work quietly in the background.</h1>
+    <h1 class="reveal">IT services that work quietly in the background.</h1>
     <p class="page-subhead">
       We design, manage, and protect technology so your business can move forward
       without disruption, distraction, or uncertainty.
