@@ -1,51 +1,48 @@
 ---
-layout: default
+layout: legal
 title: Terms & Conditions
 permalink: /terms/
 description: Terms and conditions for using the Bryant Technology Solutions website.
 ---
-<main class="legal">
-    <div class="legal-container">
-        ## Terms & Conditions
 
-        **Effective Date:** {{ site.time | date: "%B %d, %Y" }}
+## Terms & Conditions
 
-        By accessing or using this website, you agree to the following terms and conditions.
+**Effective Date:** {{ site.time | date: "%B %d, %Y" }}
 
-        ### Use of This Website
-        The content on this website is provided for general informational purposes only and does not constitute professional advice unless explicitly agreed upon in writing.
+By accessing or using this website, you agree to the following terms and conditions.
 
-        You agree not to:
-        - Attempt to disrupt or damage the site
-        - Use the site for unlawful purposes
-        - Copy or reuse content without permission
+### Use of This Website
+The content on this website is provided for general informational purposes only and does not constitute professional advice unless explicitly agreed upon in writing.
 
-        ### No Guarantee of Services
-        Submitting a contact form or scheduling a consultation does **not** create a client relationship. Services are provided only after mutual agreement and, where applicable, a signed contract.
+You agree not to:
+- Attempt to disrupt or damage the site
+- Use the site for unlawful purposes
+- Copy or reuse content without permission
 
-        ### Limitation of Liability
-        Bryant Technology Solutions is not liable for:
-        - Errors or omissions in website content
-        - Business losses, data loss, or downtime resulting from reliance on site information
-        - Third-party service interruptions or failures
+### No Guarantee of Services
+Submitting a contact form or scheduling a consultation does **not** create a client relationship. Services are provided only after mutual agreement and, where applicable, a signed contract.
 
-        Use of this website is at your own risk.
+### Limitation of Liability
+Bryant Technology Solutions is not liable for:
+- Errors or omissions in website content
+- Business losses, data loss, or downtime resulting from reliance on site information
+- Third-party service interruptions or failures
 
-        ### Intellectual Property
-        All site content, branding, and materials are the property of Bryant Technology Solutions unless otherwise stated. Unauthorized use is prohibited.
+Use of this website is at your own risk.
 
-        ### Third-Party Links
-        This website may contain links to third-party services. We are not responsible for the content or practices of those external sites.
+### Intellectual Property
+All site content, branding, and materials are the property of Bryant Technology Solutions unless otherwise stated. Unauthorized use is prohibited.
 
-        ### Governing Law
-        These Terms shall be governed by and interpreted under the laws of the **State of Kansas**, without regard to conflict-of-law principles.
+### Third-Party Links
+This website may contain links to third-party services. We are not responsible for the content or practices of those external sites.
 
-        ### Changes to These Terms
-        We may update these Terms from time to time. Continued use of the site constitutes acceptance of any changes.
+### Governing Law
+These Terms shall be governed by and interpreted under the laws of the **State of Kansas**, without regard to conflict-of-law principles.
 
-        ### Contact Information
-        Questions regarding these Terms may be directed to:
+### Changes to These Terms
+We may update these Terms from time to time. Continued use of the site constitutes acceptance of any changes.
 
-        **Email:** info@bryanttechsolutions.com
-    </div>
-</main>
+### Contact Information
+Questions regarding these Terms may be directed to:
+
+**Email:** info@bryanttechsolutions.com
