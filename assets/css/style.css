@@ -248,6 +248,16 @@ body {
   text-align: right;
 }
 
+footer a {
+  color: #8faecf;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
 /* =========================
    Contact Form
 ========================= */
@@ -486,3 +496,61 @@ body {
 .reveal-slide-right {
   transform: translateX(-24px);
 }
+
+/* =============
+   Legal Docs
+============= */
+
+.legal {
+  padding: 4rem 1.5rem;
+}
+
+.legal-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.legal h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.legal .effective-date {
+  color: #8faecf;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.legal h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.legal p,
+.legal li {
+  line-height: 1.7;
+  color: #d0d8e0;
+}
+
+.legal section {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal ul {
+  margin-left: 1.2rem;
+  padding-left: 1rem;
+}
+
+.legal li {
+  margin-bottom: 0.5rem;
+}
+
+.legal {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
