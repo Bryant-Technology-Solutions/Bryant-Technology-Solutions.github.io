@@ -522,9 +522,12 @@ footer a:hover {
 
 .legal h2 {
   margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
-  font-size: 1.4rem;
-  color: #ffffff;
+}
+
+.legal h2 + p {
+  background: rgba(255,255,255,0.03);
+  padding: 1.5rem;
+  border-radius: 12px;
 }
 
 .legal p,
@@ -554,3 +557,12 @@ footer a:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.legal h2 {
+  margin-top: 2.5rem;
+}
+
+.legal h2 + p {
+  background: rgba(255,255,255,0.03);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
