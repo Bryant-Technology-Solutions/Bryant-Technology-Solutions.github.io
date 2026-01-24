@@ -47,6 +47,9 @@ body {
    Header
 ========================= */
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background: var(--primary-bg);
   border-bottom: 1px solid var(--border-light);
 }
