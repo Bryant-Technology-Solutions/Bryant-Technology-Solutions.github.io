@@ -431,10 +431,18 @@ a:hover {
     font-size: 1.8rem;
   }
 
-  .site-header .main-nav {
+  .site-header {
     position: sticky;
     top: 0;
     z-index: 1000;
+
+    background: rgba(10, 20, 35, 0.9);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .site-header .main-nav {
+    position: relative;
     top: 100%;
     right: 0;
     background: #111827;
