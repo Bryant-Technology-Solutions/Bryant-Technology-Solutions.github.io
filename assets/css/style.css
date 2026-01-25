@@ -440,9 +440,9 @@ a:hover {
     backdrop-filter: blur(6px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
-  
+
   .site-header .main-nav {
-    position: relative;
+    position: absolute;
     top: 100%;
     right: 0;
     background: #111827;
