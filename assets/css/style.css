@@ -467,6 +467,26 @@ a:hover {
     width: 100%;
     text-align: right;
   }
+
+  .site-footer .container {
+    padding: 2rem 1rem;          /* add breathing room on small screens */
+  }
+
+  .footer-inner {
+    flex-direction: column;      /* stack */
+    align-items: center;
+    text-align: center;          /* center all text */
+    gap: 1.25rem;                /* vertical spacing between sections */
+  }
+
+  .footer-meta {
+    text-align: center;
+  }
+
+  .footer-meta a {
+    display: inline-block;
+    margin: 0 0.25rem;
+  }
 }
 /* =========================
    Scroll Reveal Utilities
