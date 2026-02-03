@@ -1,0 +1,20 @@
+# Compiled site/destination directory
+_site/
+#
+# Dependencies
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/extensions/
+#
+# Jekyll metadata
+.jekyll-metadata
+#
+# .env files
+.env
+.env.*
+# Ruby Gems lock
+Gemfile.lock

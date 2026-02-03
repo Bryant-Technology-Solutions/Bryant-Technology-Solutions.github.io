@@ -216,6 +216,32 @@ a:hover {
   color: var(--accent);
 }
 
+.service-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.service-icon {
+  display: flex;
+  align-items: center;
+}
+
+.service-icon svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  stroke: var(--accent, #4cc9f0);
+  stroke-width: 1.75;
+  fill: none;
+  opacity: 0.7;
+}
+
+
+.service-title:hover svg {
+  opacity: 1;
+}
+
 /* =========================
    Services CTA
 ========================= */
