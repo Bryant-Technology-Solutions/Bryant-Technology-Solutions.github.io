@@ -525,10 +525,6 @@ a:hover {
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.reveal:hover {
-  will-change: opacity, transform;
-}
-
 /* When element enters viewport */
 .reveal.is-visible {
   opacity: 1;
