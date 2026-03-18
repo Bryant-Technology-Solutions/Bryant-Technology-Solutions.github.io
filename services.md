@@ -77,7 +77,7 @@ description: >
       We focus on risk reduction, not fear.
     </p>
     <ul>
-      <li>Security assessments</li>
+      <li>Security assessments and Penetration Testing</li>
       <li>Firewall, WAF, and endpoint protection</li>
       <li>Access control and MFA</li>
       <li>Incident response planning</li>
